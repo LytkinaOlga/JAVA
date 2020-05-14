@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../templates/css/style.css">
+    <link rel="stylesheet" href="../templates/css/Fonts/stylesheet.css">
+    <link rel="stylesheet" href="../templates/css/normalize.css">
+    <link rel="stylesheet" href="../templates/images/font-awesome-4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../templates/css/jquery.fancybox.min.css">
+    <title>Techno Sila</title>
+</head>
+<body>
+<header>
+
+</header>
+    <div id="modal">
+        <h1>авторизация</h1>
+        <form action="/login" method="post">
+            <div class="input__style">
+                <input type="text" placeholder="логин">
+            </div>
+            <div class="input__style">
+                <input type="password" placeholder="пароль">
+            </div>
+            <input type="hidden" name="_csrf" value="{{_csrf.token}}">
+            <div class="input__style">
+                <input type="submit" value="войти">
+            </div>
+        </form>
+        <div class="d">
+            <p>Нет аккаунта?</p>
+            <a href="#">Зарегистрироваться</a>
+        </div>
+    </div>
+</body>
+</html>
