@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <link rel="stylesheet" href="css/style2.css">
+
+    <title>ТЕХНОСИЛА</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<div id="modal">
+    <h1>авторизация</h1>
+    <form th:action="@{/login}" method="post">
+        <div class="input__style">
+            <input type="text" name="username" placeholder="логин">
+        </div>
+        <div class="input__style">
+            <input type="password" name="password" placeholder="пароль">
+        </div>
+        <div class="input__style">
+            <input type="submit" value="войти">
+        </div>
+    </form>
+    <div class="d">
+        <p>Нет аккаунта?</p>
+        <a data-fancybox data-src="#modal2" href="javascript:;">Зарегистрироваться</a>
+    </div>
+</div>
+
+</body>
+</html>

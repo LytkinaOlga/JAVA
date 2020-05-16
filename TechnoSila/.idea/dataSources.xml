@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="TechnoSilaDB@localhost [2]" uuid="f20a3e42-1510-4864-902e-283bfa184133">
+    <data-source source="LOCAL" name="TechnoSilaDB@localhost" uuid="7d1cdf0a-b879-46c6-8aad-ffbac3e6b75a">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>

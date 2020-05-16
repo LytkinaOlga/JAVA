@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6862aa6d-9720-49c0-8231-537ec8874724" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TechnoSila.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechnoSila.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro-Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro-Bold.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro-Bold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro-Bold.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro-Bold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro-Light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro-Light.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro-Light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro-Light.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro-Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro-Light.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro-Light.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro-Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro-Medium.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro-Medium.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro-Medium.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro-Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro-Medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro-Medium.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/GothamPro.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/GothamPro.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/Fonts/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Fonts/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/jquery.fancybox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/jquery.fancybox.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fancybox-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/greeting.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/Mask Group1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/Mask Group1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/Mask Group2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/Mask Group2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/Mask Group3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/Mask Group3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/catalog/fridge01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/catalog/fridge01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/less/animated.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/header 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/header 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/login/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/login/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/login/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/login/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/js/jquery.fancybox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/TechnoSila.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/config/MvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro-Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro-Light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro-Medium.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/GothamPro.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/Fonts/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/jquery.fancybox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fancybox-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/greeting.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/Mask Group1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/Mask Group2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/Mask Group3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/catalog/fridge01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/header 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/login/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/login/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/js/jquery.fancybox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.mustache" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1bzYzWtfddLXxvBEJRgdhZs2ngJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo PC\IdeaProjects\JAVA\TechnoSila\src\main\resources\static" />
+      <recent name="C:\Users\Lenovo PC\IdeaProjects\JAVA\TechnoSila\src\main\resources" />
+      <recent name="C:\Users\Lenovo PC\IdeaProjects\JAVA\TechnoSila\src\main\resources\templates\static" />
+      <recent name="C:\Users\Lenovo PC\IdeaProjects\JAVA\TechnoSila\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="TechnoSila" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.bntu.fitr.poisit.lytkina.technosila.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.bntu.fitr.poisit.lytkina.technosila.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6862aa6d-9720-49c0-8231-537ec8874724" name="Default Changelist" comment="" />
+      <created>1589636652105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589636652105</updated>
+      <workItem from="1589636654152" duration="3904000" />
+      <workItem from="1589640782992" duration="396000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589638216933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589638216933" />
+    <state x="723" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589636886000">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="723" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589636886000" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1589641179040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589641179040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1589641179040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589641179040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1589641179040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589641179040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1589641179040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589641179040" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1589641179041">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589641179041" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1589641179041">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589641179041" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1589641179040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589641179040" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1589641179041">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589641179041" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1589640576423">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589640576423" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1589640576423">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589640576423" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1589640576423">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589640576423" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1589640576423">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589640576423" />
+    <state x="667" y="224" width="585" height="592" key="find.popup" timestamp="1589637171136">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="224" width="585" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589637171136" />
+  </component>
+</project>
