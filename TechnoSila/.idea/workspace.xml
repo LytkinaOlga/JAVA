@@ -20,21 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6862aa6d-9720-49c0-8231-537ec8874724" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/repos/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/greeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/MainController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/greeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/greeting.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
     </list>
@@ -46,6 +47,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="HTML File" />
         <option value="Class" />
       </list>
@@ -112,7 +114,9 @@
       <updated>1589636652105</updated>
       <workItem from="1589636654152" duration="3904000" />
       <workItem from="1589640782992" duration="396000" />
-      <workItem from="1589641248215" duration="9758000" />
+      <workItem from="1589641248215" duration="12696000" />
+      <workItem from="1589669949293" duration="711000" />
+      <workItem from="1589710269679" duration="7428000" />
     </task>
     <servers />
   </component>
@@ -140,42 +144,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="723" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589636886000" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1589712216618">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589712216618" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589653466509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589653466509" />
-    <state width="1877" height="245" key="GridCell.Tab.0.bottom" timestamp="1589655229591">
+    <state width="1877" height="245" key="GridCell.Tab.0.bottom" timestamp="1589717361643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589655229591" />
-    <state width="1877" height="245" key="GridCell.Tab.0.center" timestamp="1589655229591">
+    <state width="1877" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589717361643" />
+    <state width="1877" height="245" key="GridCell.Tab.0.center" timestamp="1589717361643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589655229591" />
-    <state width="1877" height="245" key="GridCell.Tab.0.left" timestamp="1589655229591">
+    <state width="1877" height="245" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589717361643" />
+    <state width="1877" height="245" key="GridCell.Tab.0.left" timestamp="1589717361643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589655229591" />
-    <state width="1877" height="245" key="GridCell.Tab.0.right" timestamp="1589655229591">
+    <state width="1877" height="245" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589717361643" />
+    <state width="1877" height="245" key="GridCell.Tab.0.right" timestamp="1589717361643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589655229591" />
-    <state width="1877" height="245" key="GridCell.Tab.1.bottom" timestamp="1589655229591">
+    <state width="1877" height="245" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589717361643" />
+    <state width="1877" height="245" key="GridCell.Tab.1.bottom" timestamp="1589717361643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589655229591" />
-    <state width="1877" height="245" key="GridCell.Tab.1.center" timestamp="1589655229591">
+    <state width="1877" height="245" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589717361643" />
+    <state width="1877" height="245" key="GridCell.Tab.1.center" timestamp="1589717361643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589655229591" />
-    <state width="1877" height="245" key="GridCell.Tab.1.left" timestamp="1589655229591">
+    <state width="1877" height="245" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589717361643" />
+    <state width="1877" height="245" key="GridCell.Tab.1.left" timestamp="1589717361643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589655229591" />
-    <state width="1877" height="245" key="GridCell.Tab.1.right" timestamp="1589655229591">
+    <state width="1877" height="245" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589717361643" />
+    <state width="1877" height="245" key="GridCell.Tab.1.right" timestamp="1589717361643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589655229591" />
+    <state width="1877" height="245" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589717361643" />
     <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1589640576423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,4 +1,4 @@
-package by.bntu.fitr.poisit.lytkina.technosila;
+package by.bntu.fitr.poisit.lytkina.technosila.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

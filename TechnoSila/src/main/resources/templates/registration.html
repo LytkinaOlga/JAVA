@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="https://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/images/font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>ТЕХНОСИЛА</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<div class="modal2">
+    <h1>регистрация</h1>
+    <form th:action="@{/registration}" method="post">
+        <div class="input__class">
+            <div class="input2__style">
+                <input type="text" name="username" placeholder="имя">
+            </div>
+            <div class="input2__style">
+                <input type="password" name="password" placeholder="пароль">
+            </div>
+        </div>
+        <label class="form-check-label">
+            <input type="checkbox" class="form-check-input">
+            я согласен на обработку персональных данныx
+        </label>
+        <div class="input2__style">
+            <input type="submit" value="регистрация">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

@@ -30,7 +30,7 @@
                 <a class="num" href="tel:80225750096">8 (0225) 75 00 96</a>
                 <a class="nav__link"href="#">Каталог</a>
                 <a class="nav__link"href="#">Корзина</a>
-                <a class="nav__link" href="/main">Войти</a>
+                <a class="nav__link" th:href="@{/main}">Войти</a>
             </nav>
         </div>
     </div>
@@ -83,9 +83,25 @@
             </div>
         </div>
 </div>
-<div id ="map">
-
+<div class="container">
+    <p class="work__title">Где нас найти?</p>
+    <div class="location">
+        <div class="location__inf">
+            <p>Магазин "Техносила"<br>
+                Бобруйск, ул. Комсомольская, 41<br>
+                Телефон: 8 (0225) 75 00 96</p>
+        </div>
+        <div class="location__inf">
+            <p>Время работы:<br>
+                Пн. - Пят. с 10 до 19 часов<br>
+                Сб. - Вск. с 10 до 17 часов</p>
+        </div>
+    </div>
 </div>
+<div id ="map">
+</div>
+
+
 <div class="footer">
     <nav class="nav_footer">
         <a href="#">каталог</a>
@@ -94,6 +110,10 @@
     </nav>
     <p>Широкий выбор бытовой техники, высокое качество обслуживания, четкие сроки и условия доставки, гарантия на всю бытовую технику, а так же возможность приобрести все необходимое в одном месте, поможет Вам стать постоянным покупателем магазина «Техносила».</p>
 </div>
-
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqiIu8woWXfDr3-7me8T5RVlhZkARQc0Q&callback=initMap">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="css/js/main.js"></script>
 </body>
 </html>

@@ -383,6 +383,9 @@ input{
     color: #000000;
     text-align: center;
 }
+.product__item p{
+    color: #000000;
+}
 
 .product__item img:hover{
     opacity: .8;
@@ -420,8 +423,7 @@ input{
     position: relative;
 }
 .item p{
-    
-    display: block;
+
     position: absolute;
     width: 243px;
     height: 114px;
@@ -435,6 +437,28 @@ input{
     top:80px;
     right: 10px;
 
+}
+.location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+}
+.location__inf{
+    flex-basis: 50%;
+    text-align: center;
+    position: relative;
+}
+.location__inf p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #000000;
 }
 #map {
     width: 100%;
