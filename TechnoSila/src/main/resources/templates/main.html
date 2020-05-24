@@ -1,41 +1,14 @@
 <!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 <head>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/Fonts/stylesheet.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/images/font-awesome-4.7.0/css/font-awesome.min.css">
-
-    <title>ТЕХНОСИЛА</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <div th:replace="blocks/header :: header-css"/>
 </head>
 <body>
-<header class="header">
-    <div class="container">
-        <div class="header__inner">
-            <div class="header__logo">
-                <a href="#">
-                    <img src="css/images/logo.png" alt="">
-                </a>
-            </div>
-
-            <div class="search__box">
-                <input type="text" class="search__txt" placeholder="Поиск">
-                <a href="#">
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                </a>
-            </div>
-
-            <nav class="nav" id="myTopnav">
-                <a class="num" href="tel:80225750096">8 (0225) 75 00 96</a>
-                <a class="nav__link" href="#">Каталог</a>
-                <a class="nav__link" href="#">Корзина</a>
-                <form th:action="@{/logout}" method="post">
-                    <a class="nav__link" type="submit" href="#">Выйти</a>
-                </form>
-            </nav>
-        </div>
+    <header th:replace="blocks/header.html :: header "></header>
+    <div sec:authorize ="hasAuthority('ADMIN')" class="main_link">
+        <h1><a th:href="@{/user}">Список пользователей</a></h1>
+        <h1><a th:href="@{/product/add}">Добавить продукт</a></h1>
     </div>
-</header>
 </body>
 </html>

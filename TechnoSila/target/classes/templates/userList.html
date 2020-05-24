@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"
+    xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="blocks/header :: header-css"/>
+</head>
+<body>
+<header th:replace="blocks/header :: header"></header>
+<h1>Список пользователей</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Role</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="user : ${users}">
+        <td th:text="${user.username}"> </td>
+        <td th:each="role : ${user.roles}" th:text="${role}"></td>
+        <td><a th:href="@{/user/{path}(path=${user.id})}">edit</a></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

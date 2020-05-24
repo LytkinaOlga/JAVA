@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <div th:replace="blocks/header :: header-css"/>
+</head>
+<body>
+<header th:replace="blocks/header :: header"></header>
+<div class="container" th:each="product : ${products}">
+    <div class = "product_details" >
+        <div class="productBox_details">
+            <h1 class="productName" th:text = "${product.name}"></h1>
+            <h1 class="productPrice" th:text = "${product.price}"></h1>
+            <button type="submit" class="productBtn">в корзину</button>
+        </div>
+        <div class="productBox_details">
+            <h1>Характеристики</h1>
+            <span th:text="${product.description}"></span>
+        </div>
+    </div>
+    <div sec:authorize ="hasAuthority('ADMIN')">
+        <h1><a th:href="'/product/' + ${product.id} + '/edit'">Редактировать</a></h1>
+        <form th:action="'/product/' + ${product.id} + '/remove'" method="post">
+            <button type="submit">Удалить</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <div th:replace="blocks/header :: header-css"/>
+</head>
+<body>
+    <header th:replace="blocks/header.html :: header "></header>
+<div class="container">
+    <h1 class="cart">Корзина</h1>
+    <table class="basket-table">
+        <thead>
+        <tr>
+            <th>Товар</th>
+            <th>Цена</th>
+            <th>Количество</th>
+            <th>Сумма</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="product : ${products}">
+            <td class="basket-table__product">
+                <img src="#" >
+                <a href="#"></a>
+            </td>
+            <td class="basket-table__price">
+
+            </td>
+            <td class="basket-table__product">
+                <img src="#" class="basket-table__img">
+                <a href="#" class="basket-table__link">название продукта</a>
+            </td>
+            <td class="basket-table__price">
+                <span>1000</span>
+            </td>
+            <td class="basket-table__count">
+                <div class="basket-count">
+                    <div class="basket-count__minus"><span>-</span></div>
+                    <div class="basket-count__current"><input type="text" value="1" class="g-input"></div>
+                    <div class="busket-count__plus"><span>+</span></div>
+                </div>
+
+            </td>
+            <td class="basket-table__total">
+                <span>1000</span>
+            </td>
+            <td class="basket-table__remove">
+                <a class="remove">Удалить</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

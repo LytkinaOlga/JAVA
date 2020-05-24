@@ -2,14 +2,10 @@
 <html lang="en"
       xmlns:th="https://www.thymeleaf.org">
 <head>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/Fonts/stylesheet.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/images/font-awesome-4.7.0/css/font-awesome.min.css">
-    <title>ТЕХНОСИЛА</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <div th:replace="blocks/header :: header-css"/>
 </head>
 <body>
+<header th:replace="blocks/header :: header"></header>
 <div class="modal2">
     <h1>регистрация</h1>
     <form th:action="@{/registration}" method="post">

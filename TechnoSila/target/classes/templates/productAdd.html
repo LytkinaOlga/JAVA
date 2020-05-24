@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="blocks/header :: header-css"/>
+</head>
+<body>
+<header th:replace="blocks/header :: header"></header>
+<h1>Добавление товара</h1>
+<div class="container">
+    <div class="addProduct">
+        <h1>Добавление товара</h1>
+        <div class="box">
+            <form th:action="@{/product/add}" method="post" enctype="multipart/form-data">
+                <div class="input_add_style">
+                    <input type="text" name="name" placeholder="введите название">
+                </div>
+                <div class="input_add_style">
+                    <input type="number" name="price" placeholder="цена">
+                </div>
+                <div class="input_add_style">
+                    <input type="text" name="description" placeholder="описание товара">
+                </div>
+                <div class="input_add_style">
+                    <input type="file" name="file">
+                </div>
+                <div class="input_add_style">
+                    <input type="submit" value="Добавить">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="blocks/header :: header-css"/>
+</head>
+<body>
+<header th:insert="blocks/header :: header"></header>
+<div class="menu"></div>
+<div class="container" >
+    <h1>Каталог товаров</h1>
+    <div class="product" >
+        <div class="product_container" th:each="product : ${products}">
+            <div class = "box">
+                <h1 th:text="${product.name}"></h1>
+                <img th:attr="src=@{/css/images/{image}(image=${product.filename})}">
+                <!--img th:src="@{'css/images/'+ ${product.filename}}">-->
+                    <!--<img th:src="${(product.filename != null && !#strings.isEmpty(product.filename)) ? product.filename : '/css/images/{path}(path=${product.filename})'}" th:alt="${product.filename}"/-->
+                <h2 th:text="${product.price}"></h2>
+                <p th:text="${product.description}"></p>
+                <a th:href = "'/product/' + ${product.id}">Посмотреть</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
