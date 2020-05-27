@@ -11,7 +11,7 @@
     <div class="addProduct">
         <h1>Редактирование товара</h1>
         <div class="box" th:each ="product : ${products}">
-            <form  method="post" enctype="multipart/form-data">
+            <form  method="post" th:action="'/product/' + ${product.id} + '/edit'" enctype="multipart/form-data">
                 <div class="input_add_style">
                     <input type="text" th:value="${product.name}" name="name" placeholder="введите название">
                 </div>
@@ -22,13 +22,13 @@
                     <input type="text" th:value="${product.description}" name="description" placeholder="описание товара">
                 </div>
                 <div class="input_add_style">
-                    <input type="file" name="file">
+                    <input type="file" name="file" th:value="${product.filename}">
                 </div>
                 <button type="submit" >Обновить</button>
             </form>
         </div>
     </div>
 </div>
-
+<footer th:replace="blocks/footer.html :: footer"/>
 </body>
 </html>

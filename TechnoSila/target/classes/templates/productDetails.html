@@ -11,21 +11,25 @@
     <div class = "product_details" >
         <div class="productBox_details">
             <h1 class="productName" th:text = "${product.name}"></h1>
+            <div th:if="${product.filename} != null" class="img_box">
+                <img  alt="picture" th:src="@{/css/images/{img}(img=${product.filename})}" >
+            </div>
             <h1 class="productPrice" th:text = "${product.price}"></h1>
-            <button type="submit" class="productBtn">в корзину</button>
+            <a th:href="'/product/' + ${product.id} + '/order'"  class="productBtn">в корзину</a>
         </div>
         <div class="productBox_details">
             <h1>Характеристики</h1>
-            <span th:text="${product.description}"></span>
+            <span class="product_inf" th:text="${product.description}"></span>
         </div>
     </div>
-    <div sec:authorize ="hasAuthority('ADMIN')">
-        <h1><a th:href="'/product/' + ${product.id} + '/edit'">Редактировать</a></h1>
-        <form th:action="'/product/' + ${product.id} + '/remove'" method="post">
-            <button type="submit">Удалить</button>
+    <div sec:authorize ="hasAuthority('ADMIN')" class="admin__panel">
+
+         <a th:href="'/product/' + ${product.id} + '/edit'" class="admin__panel__edit">Редактировать</a>
+        <form th:action="'/product/' + ${product.id} + '/remove'"  method="post">
+            <button type="submit" class="admin__panel__remove">Удалить</button>
         </form>
     </div>
 </div>
-
+<footer th:replace="blocks/footer.html :: footer"/>
 </body>
 </html>

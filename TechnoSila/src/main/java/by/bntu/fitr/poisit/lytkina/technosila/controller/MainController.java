@@ -1,5 +1,6 @@
 package by.bntu.fitr.poisit.lytkina.technosila.controller;
 
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,9 +15,6 @@ public class MainController {
         return "greeting";
     }
 
-    @GetMapping("/main")
-    public String main(Map<String, Object> model){
-        return "main";
-    }
+
 
 }

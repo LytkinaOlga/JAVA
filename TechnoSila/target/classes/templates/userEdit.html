@@ -8,18 +8,20 @@
 <body>
 <header th:replace="blocks/header :: header"></header>
 
-<h1>Редактор пользователя</h1>
-<form th:action="@{/user}" method="post">
-    <input type="text" name="username" th:value="${user.username}">
+<h1 class="user_edit">Редактор пользователя</h1>
+<div class="container">
+    <form th:action="@{/user}" method="post" class="user_edit_form">
+        <input type="text" name="username" th:value="${user.username}" class="user_name">
 
-    <div th:each="role:${roles}">
-        <input type="checkbox" th:name="${role}" th:checked="${#strings.contains(#strings.toString(user.roles), #strings.toString(role))}" th:text="${role}">
-        <!--        th:text="${role}"-->
-    </div>
-    <input type="hidden" th:value="${user.id}" name="userId">
-    <button type="submit">Сохранить</button>
-</form>
+        <div th:each="role:${roles}">
+            <input class="user_name" type="checkbox" th:name="${role}" th:checked="${#strings.contains(#strings.toString(user.roles), #strings.toString(role))}" th:text="${role}">
+            <!--        th:text="${role}"-->
+        </div>
+        <input type="hidden" th:value="${user.id}" name="userId">
+        <button class="save_user" type="submit" aligh="center">Сохранить</button>
+    </form>
+</div>
 
-
+<footer th:replace="blocks/footer.html :: footer"/>
 </body>
 </html>

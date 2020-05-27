@@ -20,67 +20,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6862aa6d-9720-49c0-8231-537ec8874724" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/OrderProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/OrderProductPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/repos/OrderRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/repos/ProductRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/styleHeader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/headerout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/productAdd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/productDetails.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/productEdit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userEdit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/0b9556f9-8785-4b4c-b21d-950acb7427c8.JvNgT3dJwm0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/2c65fef6-0d00-4ffe-9bf6-cac76999c691.2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/6f7cd6d8-afd9-464c-93f7-8d488ea9aea3.header 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/80aec996-66cc-4c9a-b9da-092054491df6.header 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/9b68a46c-32f2-468f-83b1-9e393e855c1f.3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0a7e88e-fdc0-49f4-a21f-ee5f4346c74b.3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a11ebb51-ae64-4728-8624-03a3b87f40be.logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/aa230ed3-a8b7-4c36-b96b-6ee06c61dc54.JvNgT3dJwm0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/bb7cd43e-8d6e-4142-8794-4b20a34c9db9.JvNgT3dJwm0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/d59b605a-32d9-4453-9d28-6c8f90b0d202.3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/de074b09-268f-446c-940b-fbb9f60d840e.JvNgT3dJwm0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/e2d7d6c0-ab85-40cb-8214-0cf6163be879.JvNgT3dJwm0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/eb65ce54-5d45-4414-bcd0-aa0a834b3fbd.header 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/orig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/газоваяплита.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/кофемашина.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/пылесос.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/стиралка.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/утюг.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/02a34e79-861f-4bec-8c51-529cc805f23a.кофемашина.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/0589aecc-391c-4cf7-9551-402a40730283.утюг.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/08cfa162-74ba-4da8-aee3-040cb8e5487b.газоваяплита.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1d243c59-debf-4e2d-8830-32573c1b2736" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2ab358d3-9676-4cb2-b754-1689a6273945.пылесос.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/32d6d6b7-28d6-420d-b420-44e95b334a6f.orig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/33309b24-c904-412e-ad51-cd767d16cad7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/3fe7a400-f6fc-4c9d-8c2d-87e95096daa1.газоваяплита.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/667ead1a-ab18-4497-8e74-2502cabd70c5.утюг.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/66fa2a86-f617-40dd-b013-d9bc99d4a14e.утюг.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/72e2b20e-c872-4f89-b0e5-e4efafa7d00d.пылесос.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/7c55f35e-c87d-4feb-aca5-5a80d352b882.стиралка.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/83528cbd-e111-41dd-a079-deaf7e1bb9ef.газоваяплита.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/Mask Group1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/Mask Group2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/Mask Group3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/a830443e-df77-4bc0-9dd8-7758d2dcfa31.газоваяплита.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/bb948954-fc1d-41c8-9548-39a4edc94fc6.кофемашина.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/c2f9d2ae-cc12-4562-8602-13caf409a324" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/d239070b-8c4f-4932-8ccb-3174a64fe1a4.кофемашина.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/header 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d1cdf0a-b879-46c6-8aad-ffbac3e6b75a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d1cdf0a-b879-46c6-8aad-ffbac3e6b75a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/MvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/CartController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/OrderProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/OrderProductPK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/repos/OrderRepo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/headerout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/greeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/productAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/productAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/productDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/productDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/productEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/productEdit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/TechnoSila.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/config/MvcConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/controller/CartController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/domain/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/domain/OrderProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/domain/OrderProductPK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/domain/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/domain/Product.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/domain/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/domain/Role.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/repos/UserRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/repos/UserRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/bntu/fitr/poisit/lytkina/technosila/repos/OrderRepo.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/styleHeader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/blocks/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/blocks/headerout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/greeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/greeting.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/productAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/productAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/productDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/productDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/productEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/productEdit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userList.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userList.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +123,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -122,6 +153,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Test" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
@@ -173,6 +207,9 @@
       <workItem from="1590052491968" duration="34040000" />
       <workItem from="1590153145829" duration="6570000" />
       <workItem from="1590235090133" duration="19170000" />
+      <workItem from="1590328995871" duration="33245000" />
+      <workItem from="1590402979403" duration="44390000" />
+      <workItem from="1590579438247" duration="12845000" />
     </task>
     <servers />
   </component>
@@ -195,6 +232,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1590329181953">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1590329181953" />
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590235488730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -203,66 +244,66 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="723" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589636886000" />
-    <state x="765" y="204" width="390" height="808" key="#com.intellij.ide.util.MemberChooser" timestamp="1590259810452">
+    <state x="765" y="204" width="390" height="808" key="#com.intellij.ide.util.MemberChooser" timestamp="1590411068612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" width="390" height="808" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590259810452" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589653466509">
+    <state x="765" y="204" width="390" height="808" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590411068612" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590403622280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589653466509" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590403622280" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1590253579150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590253579150" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1590282784516">
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom" timestamp="1590603602866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590282784516" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1590282784516">
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590603602866" />
+    <state width="1877" height="205" key="GridCell.Tab.0.center" timestamp="1590603602866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590282784516" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1590282784512">
+    <state width="1877" height="205" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590603602866" />
+    <state width="1877" height="205" key="GridCell.Tab.0.left" timestamp="1590603602866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590282784512" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1590282784516">
+    <state width="1877" height="205" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590603602866" />
+    <state width="1877" height="205" key="GridCell.Tab.0.right" timestamp="1590603602866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590282784516" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1590282784516">
+    <state width="1877" height="205" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590603602866" />
+    <state width="1877" height="205" key="GridCell.Tab.1.bottom" timestamp="1590603602867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590282784516" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1590282784516">
+    <state width="1877" height="205" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590603602867" />
+    <state width="1877" height="205" key="GridCell.Tab.1.center" timestamp="1590603602866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590282784516" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1590282784516">
+    <state width="1877" height="205" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590603602866" />
+    <state width="1877" height="205" key="GridCell.Tab.1.left" timestamp="1590603602866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590282784516" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1590282784516">
+    <state width="1877" height="205" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590603602866" />
+    <state width="1877" height="205" key="GridCell.Tab.1.right" timestamp="1590603602866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590282784516" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1590282784516">
+    <state width="1877" height="205" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590603602866" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1590536113087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590282784516" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1590282784516">
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590536113087" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1590536113086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590282784516" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1590282784516">
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590536113086" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1590536113085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590282784516" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1590282784516">
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590536113085" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1590536113086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590282784516" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590536113086" />
     <state x="690" y="281" key="extract.method.dialog" timestamp="1590245608850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -271,13 +312,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="224" width="585" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589637171136" />
-    <state x="342" y="181" key="new project wizard" timestamp="1590086746343">
+    <state x="342" y="181" key="new project wizard" timestamp="1590583600109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="181" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590086746343" />
+    <state x="342" y="181" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590583600109" />
+    <state x="666" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1590344118124">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590344118124" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1590089773798">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590089773798" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590534343473">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590534343473" />
   </component>
 </project>

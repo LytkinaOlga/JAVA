@@ -139,6 +139,19 @@ input{
     padding: 5px 25px;
     
 }
+.logout{
+    display: inline;
+}
+.logout input{
+    background-color: #FFFFFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -0.04em;
+    font-family: 'Gotham Pro', sans-serif;
+    margin: 0 20px;
+}
 
 /*---------------------ADAPTIVE-------------------------*/
 
@@ -477,6 +490,15 @@ input{
     height: 150px;
     background-color: #000000;
     margin-top: 100px;
+
+}
+
+.footer span{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 13px;
 }
 .nav_footer{
     display: flex;
@@ -526,6 +548,11 @@ input{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
 }
+.img_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .addProduct{
     margin-top: 150px;
 }
@@ -563,6 +590,13 @@ input{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
 }
+.productName{
+    display: block;
+    max-width: 400px;
+    margin-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
 .productPrice{
     font-style: normal;
     font-weight: normal;
@@ -571,9 +605,17 @@ input{
     letter-spacing: -0.04em;
     text-transform: uppercase;
     color: #2C55C1;
-    position: relative;
-    top:440px;
-    right: 200px;
+    position: absolute;
+    top:680px;
+    left: 380px;
+}
+.product_inf{
+    display: block;
+    max-width: 500px;
+    margin-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+
 }
 .productBtn{
     width: 123px;
@@ -588,15 +630,83 @@ input{
     letter-spacing: -0.04em;
     text-transform: uppercase;
     color: #FFFFFF;
-    position: relative;
-    top: 390px;
-    left:440px;
+    position: absolute;
+    top:700px;
+    left:720px;
+    padding: 13px 22px;
+}
+.saw{
+    background: #2C55C1;
+    color: #ffffff;
+    padding: 5px 15px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.saw:hover{
+    background: #1E3A82;
 }
 .link_edit_prodct{
     color: #000000;
 }
 .main_link{
-    margin-top: 150px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.admin__panel{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.admin__panel__remove{
+    border: none;
+    background-color: #2C55C1;
+    color: #ffffff;
+    border-radius: 4px;
+    flex-basis: 50%;
+    padding: 30px 150px;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.admin__panel__edit{
+    align-items: center;
+    background-color: #2C55C1;
+    color: #ffffff;
+    padding: 20px 25px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    width: 350px;
+    margin-left: 340px;
+}
+
+.main_link__slyle
+{
+    align-items: center;
+    background-color: #2C55C1;
+    color: #ffffff;
+    margin: 20px 20px;
+    padding: 20px 25px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    flex-basis: 50%;
+    border-radius: 4px;
+}
+.main_link__slyle:hover,
+.admin__panel__remove:hover,
+.admin__panel__edit:hover
+{
+    background: #1E3A82;
 }
 /*-----------------------------------basket-----------------------------------------------------*/
 .basket-content{
@@ -608,6 +718,12 @@ input{
 .basket-table{
     border-collapse: collapse;
     width: 100%;
+}
+.table{
+    border-collapse: collapse;
+    width: 600px;
+    margin: 0 auto;
+
 }
 td, th{
     border-bottom: 1px solid #CDCFD4;
@@ -674,5 +790,41 @@ td {
     background-color: #000000;
     color: #FFFFFF;
     border: none;
+}
+.user_edit{
+    margin-top: 100px;
+    text-align: center;
+}
+.user_edit_form{
+    text-align: center;
+}
+.user_name{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+.save_user{
+    background: #2C55C1;
+    border-radius: 4px;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    padding: 15px 30px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.save_user:hover{
+    background: #1E3A82;
 }
 

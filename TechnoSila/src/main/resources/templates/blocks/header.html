@@ -31,15 +31,11 @@
                 <nav class="nav" id="myTopnav">
                     <a class="num" href="tel:80225750096">8 (0225) 75 00 96</a>
                     <a class="nav__link" th:href="@{/product}">Каталог</a>
-                    <a class="nav__link" href="#">Корзина</a>
-                    <div sec:authorize ="!isAuthenticated()">
-                        <a class="nav__link" th:href="@{/main}" th:text="Войти"></a>
-                    </div>
-                    <div sec:authorize ="isAuthenticated()">
-                        <form th:action="@{/logout}" method="post">
-                            <input type="submit" value="выйти">
-                        </form>
-                    </div>
+                    <a class="nav__link" th:href="@{/cart}">Корзина</a>
+                    <a class="nav__link" sec:authorize ="!isAuthenticated()" th:href="@{/login}" th:text="Войти"></a>
+                    <form th:action="@{/logout}" method="post" sec:authorize ="isAuthenticated()" class="logout">
+                        <input type="submit" value="выйти">
+                    </form>
                 </nav>
             </div>
         </div>

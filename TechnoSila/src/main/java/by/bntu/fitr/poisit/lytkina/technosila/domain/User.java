@@ -1,12 +1,17 @@
 package by.bntu.fitr.poisit.lytkina.technosila.domain;
 
 
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
+
 import javax.persistence.*;
+import java.util.Collection;
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
 @Table(name="usr")
-public class User {
+public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -14,12 +19,48 @@ public class User {
     private String password;
     private boolean active;
 
+
     @ElementCollection(targetClass = Role.class, fetch = FetchType.EAGER)
     @CollectionTable(name = "user_role", joinColumns = @JoinColumn(name="user_id"))
     @Enumerated(EnumType.STRING)
     private Set<Role> roles;
 
+    @ManyToMany
+    @JoinTable(
+            name="users_products2",
+            joinColumns = {@JoinColumn(name="user_ID")},
+            inverseJoinColumns = {@JoinColumn(name="product_ID")}
+    )
+    private Set<Product> products = new HashSet<>();
+
     public User() {
+    }
+
+    public User( String username, String password, boolean active, Set<Role> roles, Set<Product> products) {
+
+        this.username = username;
+        this.password = password;
+        this.active = active;
+        this.roles = roles;
+        this.products = products;
+    }
+    public String getProductName(){
+        String result = null;
+        if (products !=null){
+            for(Product product: products){
+                result = product.getName();
+            }
+        }
+        else result = "<none>";
+        return result;
+    }
+
+    public Set<Product> getProducts() {
+        return products;
+    }
+
+    public void setProducts(Set<Product> products) {
+        this.products = products;
     }
 
     public Long getId() {
@@ -34,8 +75,33 @@ public class User {
         return username;
     }
 
+    @Override
+    public boolean isAccountNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isAccountNonLocked() {
+        return true;
+    }
+
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return isActive();
+    }
+
     public void setUsername(String username) {
         this.username = username;
+    }
+
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        return getRoles();
     }
 
     public String getPassword() {

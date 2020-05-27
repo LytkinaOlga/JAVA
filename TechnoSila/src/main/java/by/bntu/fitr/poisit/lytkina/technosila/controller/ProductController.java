@@ -1,9 +1,12 @@
 package by.bntu.fitr.poisit.lytkina.technosila.controller;
 
 import by.bntu.fitr.poisit.lytkina.technosila.domain.Product;
+import by.bntu.fitr.poisit.lytkina.technosila.domain.User;
 import by.bntu.fitr.poisit.lytkina.technosila.repos.ProductRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -28,6 +31,7 @@ public class ProductController {
         model.put("products", products);
         return "product";
     }
+    @PreAuthorize("hasAuthority('ADMIN')")
     @GetMapping("/product/add")
     public String productAdd (Map<String, Object> model){
         return "productAdd";
@@ -54,15 +58,20 @@ public class ProductController {
         return "redirect:/product";
     }
     @GetMapping("/product/{id}")
-    public String productDetails (@PathVariable(value = "id") long id, Map<String, Object> model){
+    public String productDetails (@PathVariable(value = "id") long id, Map<String, Object> model,
+                                  @AuthenticationPrincipal User user ){
         if (!productRepo.existsById(id)){
             return "redirect:/product";
         }
+
         Iterable<Product> products = productRepo.findAllById(Collections.singleton(id));
+
         model.put("products", products);
+        model.put("userOwner", user);
         return "productDetails";
     }
 
+    @PreAuthorize("hasAuthority('ADMIN')")
     @GetMapping("/product/{id}/edit")
     public String productEdit (@PathVariable(value = "id") long id, Map<String, Object> model){
         if (!productRepo.existsById(id)){
@@ -72,6 +81,8 @@ public class ProductController {
         model.put("products", products);
         return "productEdit";
     }
+
+    @PreAuthorize("hasAuthority('ADMIN')")
     @PostMapping("/product/{id}/edit")
     public String productEdit(@PathVariable(value = "id") long id, @RequestParam String name,
                       @RequestParam Double price,
@@ -82,10 +93,13 @@ public class ProductController {
         Iterable<Product> products = productRepo.findAllById(Collections.singleton(id));
         model.put("products", products);
 
+
+
         Product product = productRepo.findById(id).orElseThrow();
         product.setName(name);
         product.setPrice(price);
         product.setDescription(description);
+
         if(file !=  null) {
             File uploadDir = new File(uploadPath);
             if (!uploadDir.exists()){
@@ -96,11 +110,12 @@ public class ProductController {
             file.transferTo(new File(uploadPath + "/" + resultFileName));
             product.setFilename(resultFileName);
         }
+
         productRepo.save(product);
         return "redirect:/product";
     }
 
-
+    @PreAuthorize("hasAuthority('ADMIN')")
     @PostMapping("/product/{id}/remove")
     public String productRemove(@PathVariable(value = "id") long id,Map<String, Object> model) {
         Product product = productRepo.findById(id).orElseThrow();

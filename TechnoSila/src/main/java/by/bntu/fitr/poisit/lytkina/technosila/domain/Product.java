@@ -2,10 +2,9 @@ package by.bntu.fitr.poisit.lytkina.technosila.domain;
 
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 public class Product {
@@ -17,10 +16,24 @@ public class Product {
     private String description;
     private String filename;
 
-
+    @ManyToMany
+    @JoinTable(
+            name="users_products2",
+            joinColumns = {@JoinColumn(name="product_ID")},
+            inverseJoinColumns = {@JoinColumn(name="user_ID")}
+    )
+    private Set<User> users = new HashSet<>();
 
     public Product(){
 
+    }
+
+    public Set<User> getUsers() {
+        return users;
+    }
+
+    public void setUsers(Set<User> users) {
+        this.users = users;
     }
 
     public Product(String name, Double price, String description) {

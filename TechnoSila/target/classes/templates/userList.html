@@ -7,22 +7,27 @@
 <body>
 <header th:replace="blocks/header :: header"></header>
 <h1>Список пользователей</h1>
-<table>
-    <thead>
-    <tr>
-        <th>Name</th>
-        <th>Role</th>
-        <th></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr th:each="user : ${users}">
-        <td th:text="${user.username}"> </td>
-        <td th:each="role : ${user.roles}" th:text="${role}"></td>
-        <td><a th:href="@{/user/{path}(path=${user.id})}">edit</a></td>
-    </tr>
-    </tbody>
-</table>
+<div class="container">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Role</th>
+            <th></th>
+            <th>Products</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="user : ${users}">
+            <td th:text="${user.username}"> </td>
+            <td th:each="role : ${user.roles}" th:text="${role}"></td>
+            <td><a th:href="@{/user/{path}(path=${user.id})}">Редактировать</a></td>
+            <td th:each="product :${user.products}" th:text="${product.name}"></td>
 
+        </tr>
+        </tbody>
+    </table>
+</div>
+<footer th:replace="blocks/footer.html :: footer"/>
 </body>
 </html>
