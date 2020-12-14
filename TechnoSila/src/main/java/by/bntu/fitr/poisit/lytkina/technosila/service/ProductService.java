@@ -20,6 +20,5 @@ public class ProductService {
             totalPrice += product.getPrice();
         }
         return totalPrice;
-
     }
 }

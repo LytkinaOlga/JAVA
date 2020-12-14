@@ -29,11 +29,6 @@ public class UserController {
     @GetMapping
     public String userList(Model model) {
         model.addAttribute("users", userRepo.findAll());
-        /*List<User> users = userRepo.findAll();
-        for(User user: users){
-            Set<Product> products = user.getProducts();
-        }
-        model.addAttribute("products", products);*/
         return "userList";
     }
 
