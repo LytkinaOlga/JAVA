@@ -1,20 +1,18 @@
 package by.bntu.fitr.poisit.lytkina.technosila.controller;
 
-import by.bntu.fitr.poisit.lytkina.technosila.domain.Product;
-import by.bntu.fitr.poisit.lytkina.technosila.domain.User;
+import by.bntu.fitr.poisit.lytkina.technosila.beans.Product;
+import by.bntu.fitr.poisit.lytkina.technosila.beans.User;
 import by.bntu.fitr.poisit.lytkina.technosila.repos.ProductRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.*;
 
 @Controller

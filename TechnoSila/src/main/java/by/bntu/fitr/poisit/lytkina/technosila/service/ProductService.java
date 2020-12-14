@@ -1,7 +1,7 @@
 package by.bntu.fitr.poisit.lytkina.technosila.service;
 
-import by.bntu.fitr.poisit.lytkina.technosila.domain.Product;
-import by.bntu.fitr.poisit.lytkina.technosila.domain.User;
+import by.bntu.fitr.poisit.lytkina.technosila.beans.Product;
+import by.bntu.fitr.poisit.lytkina.technosila.beans.User;
 import by.bntu.fitr.poisit.lytkina.technosila.repos.ProductRepo;
 import by.bntu.fitr.poisit.lytkina.technosila.repos.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;

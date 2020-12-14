@@ -31,7 +31,7 @@
                 <span th:text="${product.price}"></span>
             </td>
             <td class="basket-table__remove">
-                <form th:action="'product/' + ${product.id} + '/order/remove'" method="post">
+                <form th:action="@{/product/{path}/order/remove(path=${product.id})}"  method="post">
                     <button type="submit" class="remove">Удалить</button>
                 </form>
             </td>

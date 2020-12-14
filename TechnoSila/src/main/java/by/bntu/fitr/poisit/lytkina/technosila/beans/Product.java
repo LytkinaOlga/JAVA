@@ -1,6 +1,4 @@
-package by.bntu.fitr.poisit.lytkina.technosila.domain;
-
-import org.springframework.web.multipart.MultipartFile;
+package by.bntu.fitr.poisit.lytkina.technosila.beans;
 
 import javax.persistence.*;
 import java.util.HashSet;

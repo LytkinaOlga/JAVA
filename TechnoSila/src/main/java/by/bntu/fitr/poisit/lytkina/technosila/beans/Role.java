@@ -1,4 +1,4 @@
-package by.bntu.fitr.poisit.lytkina.technosila.domain;
+package by.bntu.fitr.poisit.lytkina.technosila.beans;
 
 import org.springframework.security.core.GrantedAuthority;
 

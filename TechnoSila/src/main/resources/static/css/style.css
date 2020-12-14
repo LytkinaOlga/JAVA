@@ -657,7 +657,6 @@ input{
 }
 .admin__panel{
     margin-top: 50px;
-    display: flex;
     justify-content: space-between;
 
 }
@@ -671,8 +670,12 @@ input{
     font-size: 16px;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-    margin-left: 30px;
+    margin-top: 20px;
     cursor: pointer;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 .admin__panel__edit{
     align-items: center;
@@ -685,7 +688,10 @@ input{
     text-transform: uppercase;
     border-radius: 4px;
     width: 350px;
-    margin-left: 340px;
+    margin: 0px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .main_link__slyle

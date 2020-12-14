@@ -1,7 +1,7 @@
 package by.bntu.fitr.poisit.lytkina.technosila.controller;
 
-import by.bntu.fitr.poisit.lytkina.technosila.domain.Role;
-import by.bntu.fitr.poisit.lytkina.technosila.domain.User;
+import by.bntu.fitr.poisit.lytkina.technosila.beans.Role;
+import by.bntu.fitr.poisit.lytkina.technosila.beans.User;
 import by.bntu.fitr.poisit.lytkina.technosila.repos.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
