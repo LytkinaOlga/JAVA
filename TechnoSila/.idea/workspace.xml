@@ -20,21 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6862aa6d-9720-49c0-8231-537ec8874724" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/uploads/cfb03f22-5b5f-4cb3-955b-d8d279d28878.0589aecc-391c-4cf7-9551-402a40730283.утюг.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/beans/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/beans/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/beans/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/repos/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/repos/ProductRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/repos/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/repos/UserRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/productEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/productEdit.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +142,7 @@
       <workItem from="1605371233657" duration="56000" />
       <workItem from="1607270155475" duration="3771000" />
       <workItem from="1607329203519" duration="35000" />
-      <workItem from="1607965541913" duration="7701000" />
+      <workItem from="1607965541913" duration="11308000" />
     </task>
     <servers />
   </component>
@@ -175,58 +165,58 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605371293622">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607982810534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605371293622" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1607973365600">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607982810534" />
+    <state width="1877" height="220" key="GridCell.Tab.0.bottom" timestamp="1607981008869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607973365600" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1607973365600">
+    <state width="1877" height="220" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607981008869" />
+    <state width="1877" height="220" key="GridCell.Tab.0.center" timestamp="1607981008869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607973365600" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1607973365600">
+    <state width="1877" height="220" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607981008869" />
+    <state width="1877" height="220" key="GridCell.Tab.0.left" timestamp="1607981008869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607973365600" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1607973365600">
+    <state width="1877" height="220" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607981008869" />
+    <state width="1877" height="220" key="GridCell.Tab.0.right" timestamp="1607981008869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607973365600" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607973365427">
+    <state width="1877" height="220" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607981008869" />
+    <state width="1877" height="220" key="GridCell.Tab.1.bottom" timestamp="1607981008869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607973365427" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1607973365427">
+    <state width="1877" height="220" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607981008869" />
+    <state width="1877" height="220" key="GridCell.Tab.1.center" timestamp="1607981008869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607973365427" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1607973365427">
+    <state width="1877" height="220" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607981008869" />
+    <state width="1877" height="220" key="GridCell.Tab.1.left" timestamp="1607981008869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607973365427" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1607973365427">
+    <state width="1877" height="220" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607981008869" />
+    <state width="1877" height="220" key="GridCell.Tab.1.right" timestamp="1607981008869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607973365427" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1607973365427">
+    <state width="1877" height="220" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607981008869" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1607973761304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607973365427" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1607973365427">
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607973761304" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1607973761304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607973365427" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1607973365427">
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607973761304" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1607973761304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607973365427" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1607973365427">
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607973761304" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1607973761304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607973365427" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607973761304" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

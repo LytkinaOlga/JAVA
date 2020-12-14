@@ -357,7 +357,7 @@ input{
     text-transform: uppercase;
     color: #000000;
 }
-.btn {
+.btn, .button_update {
     position: absolute;
     width: 150px;
     height: 50px;
@@ -373,7 +373,14 @@ input{
     background-color: #2C55C1;
     letter-spacing: -0.04em;
     margin-top: 30px;
+
 }
+.button_update{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
 .product__title{
     margin-top: 60px;
     margin-bottom: 60px;;
