@@ -267,7 +267,6 @@ input{
     
 }
 .modal input[type="submit"]{
-    width: 247px;
     height: 65px;
     background: #2C55C1;
     border-radius: 4px;
@@ -359,8 +358,7 @@ input{
 }
 .btn, .button_update {
     position: absolute;
-    width: 150px;
-    height: 50px;
+
     border: 3px solid #2C55C1;
     padding: 10px;
     border-radius: 4px;
@@ -839,5 +837,20 @@ td {
 }
 .save_user:hover{
     background: #1E3A82;
+}
+
+.input__style_order{
+    width: 300px;
+    height: 65px;
+    background: #2C55C1;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 23px 50px;
 }
 

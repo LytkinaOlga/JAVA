@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <div th:replace="blocks/header :: header-css"/>
+</head>
+<body>
+<header th:replace="blocks/header.html :: header "></header>
+<div class="container">
+    <h1 class="cart">Ваш заказ успешно принят!</h1>
+    <a class="button_update" th:href="@{/product}">Вернуться к каталогу</a>
+</div>
+<footer th:replace="blocks/footer.html :: footer"/>
+</body>
+</html>

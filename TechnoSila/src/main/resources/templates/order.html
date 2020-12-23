@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <div th:replace="blocks/header :: header-css"/>
+</head>
+<body>
+<header th:replace="blocks/header.html :: header "></header>
+
+
+    <div class="modal">
+        <h1>Оформление заказа</h1>
+        <form th:action="@{/order}" method="post">
+
+            <div class="input__style">
+                <input type="text" name="phone" placeholder="Введите свой номер телефона">
+            </div>
+            <div class="input__style">
+                <input type="text" name="address" placeholder="Введите адрес доставки">
+            </div>
+            <div class="input2__style">
+                <input type="submit" value="Оформить заказ">
+            </div>
+        </form>
+    </div>
+
+<footer th:replace="blocks/footer.html :: footer"/>
+</body>
+</html>

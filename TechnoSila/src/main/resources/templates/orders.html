@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <div th:replace="blocks/header :: header-css"/>
+</head>
+<body>
+<header th:insert="blocks/header :: header"></header>
+<div class="container">
+
+    <table class="table">
+
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Phone</th>
+            <th>Address</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="order : ${orders}">
+            <td th:text="${order.username}"> </td>
+            <td th:text="${order.price}"></td>
+            <td th:text="${order.phone}"></td>
+            <td th:text="${order.address}"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<footer th:replace="blocks/footer.html :: footer"/>
+</body>
+</html>

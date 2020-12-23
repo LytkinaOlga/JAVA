@@ -12,6 +12,7 @@
     <div sec:authorize ="hasAuthority('ADMIN')" class="main_link">
         <a class="main_link__slyle" th:href="@{/user}">Список пользователей</a>
         <a class="main_link__slyle" th:href="@{/product/add}">Добавить продукт</a>
+        <a class="main_link__slyle" th:href="@{/orders}">Посмотреть заказы</a>
     </div>
     <h1>Каталог товаров</h1>
     <div class="product" >
