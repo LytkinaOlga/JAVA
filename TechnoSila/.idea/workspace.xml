@@ -20,18 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6862aa6d-9720-49c0-8231-537ec8874724" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/beans/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/repos/OrderRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/orders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/successOrder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/834fc265-a38f-4bf5-a8eb-efa61e9a2e98" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/beans/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/beans/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +41,9 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,6 +71,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -80,20 +81,42 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="by.bntu.fitr.poisit.lytkina.technosila.controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="by.bntu.fitr.poisit.lytkina.technosila.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo PC\IdeaProjects\JAVA\TechnoSila" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo PC\IdeaProjects\JAVA\TechnoSila\src\main\resources\static" />
       <recent name="C:\Users\Lenovo PC\IdeaProjects\JAVA\TechnoSila\src\main\resources" />
       <recent name="C:\Users\Lenovo PC\IdeaProjects\JAVA\TechnoSila\src\main\resources\templates\static" />
       <recent name="C:\Users\Lenovo PC\IdeaProjects\JAVA\TechnoSila\src\main\resources\templates" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Lenovo PC\IdeaProjects\JAVA\TechnoSila" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="by.bntu.fitr.poisit.lytkina.technosila.controller" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="ProductControllerIntTest.productAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TechnoSila" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.bntu.fitr.poisit.lytkina.technosila.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.bntu.fitr.poisit.lytkina.technosila.controller" />
+      <option name="MAIN_CLASS_NAME" value="by.bntu.fitr.poisit.lytkina.technosila.controller.ProductControllerIntTest" />
+      <option name="METHOD_NAME" value="productAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="TechnoSila" />
       <extension name="coverage">
@@ -110,6 +133,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.ProductControllerIntTest.productAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +179,13 @@
       <workItem from="1608655320687" duration="248000" />
       <workItem from="1608656155094" duration="940000" />
       <workItem from="1608659315726" duration="362000" />
-      <workItem from="1608703196784" duration="6683000" />
+      <workItem from="1608703196784" duration="7723000" />
+      <workItem from="1608757647550" duration="145000" />
+      <workItem from="1609596861882" duration="1220000" />
+      <workItem from="1610059116176" duration="2415000" />
+      <workItem from="1610412622618" duration="629000" />
+      <workItem from="1614202913133" duration="4256000" />
+      <workItem from="1614282619781" duration="9874000" />
     </task>
     <servers />
   </component>
@@ -182,62 +212,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608139915295" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1608704961048">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1614291359262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608704961048" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614291359262" />
     <state x="590" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1608066901239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608066901239" />
-    <state width="1877" height="488" key="GridCell.Tab.0.bottom" timestamp="1608709703535">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614203079882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="488" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608709703535" />
-    <state width="1877" height="488" key="GridCell.Tab.0.center" timestamp="1608709703535">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614203079882" />
+    <state x="116" y="40" width="1736" height="856" key="DiffContextDialog" timestamp="1614203428098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="488" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608709703535" />
-    <state width="1877" height="488" key="GridCell.Tab.0.left" timestamp="1608709703535">
+    <state x="116" y="40" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614203428098" />
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1614292274841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="488" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608709703535" />
-    <state width="1877" height="488" key="GridCell.Tab.0.right" timestamp="1608709703535">
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614292274841" />
+    <state width="1293" height="282" key="GridCell.Tab.0.center" timestamp="1614292274841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="488" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608709703535" />
-    <state width="1877" height="488" key="GridCell.Tab.1.bottom" timestamp="1608709703536">
+    <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614292274841" />
+    <state width="1293" height="282" key="GridCell.Tab.0.left" timestamp="1614292274840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="488" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608709703536" />
-    <state width="1877" height="488" key="GridCell.Tab.1.center" timestamp="1608709703535">
+    <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614292274840" />
+    <state width="1293" height="282" key="GridCell.Tab.0.right" timestamp="1614292274841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="488" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608709703535" />
-    <state width="1877" height="488" key="GridCell.Tab.1.left" timestamp="1608709703535">
+    <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614292274841" />
+    <state width="1877" height="306" key="GridCell.Tab.1.bottom" timestamp="1614292274832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="488" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608709703535" />
-    <state width="1877" height="488" key="GridCell.Tab.1.right" timestamp="1608709703536">
+    <state width="1877" height="306" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614292274832" />
+    <state width="1877" height="306" key="GridCell.Tab.1.center" timestamp="1614292274831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="488" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608709703536" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1608709396701">
+    <state width="1877" height="306" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614292274831" />
+    <state width="1877" height="306" key="GridCell.Tab.1.left" timestamp="1614292274831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608709396701" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1608709396701">
+    <state width="1877" height="306" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614292274831" />
+    <state width="1877" height="306" key="GridCell.Tab.1.right" timestamp="1614292274831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608709396701" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1608709396701">
+    <state width="1877" height="306" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614292274831" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1608721659420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608709396701" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1608709396701">
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608721659420" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1608721659420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608709396701" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608721659420" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1608721659420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608721659420" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1608721659420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608721659420" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1608139650960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -246,6 +284,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607983382005" />
+    <state x="1195" y="66" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610059412211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1195" y="66" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610059412211" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

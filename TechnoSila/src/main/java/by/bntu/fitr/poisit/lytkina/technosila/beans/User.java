@@ -3,8 +3,13 @@ package by.bntu.fitr.poisit.lytkina.technosila.beans;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.validation.annotation.Validated;
 
 import javax.persistence.*;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
@@ -15,8 +20,17 @@ public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    @Size (min=2, max = 20)
+    @NotBlank
     private String username;
+
+    @Size (min = 8)
+    @NotBlank
     private String password;
+
+    @NotBlank
+    @Transient
+    private String confirmPassword;
     private boolean active;
 
 
@@ -73,6 +87,14 @@ public class User implements UserDetails {
 
     public String getUsername() {
         return username;
+    }
+
+    public String getConfirmPassword() {
+        return confirmPassword;
+    }
+
+    public void setConfirmPassword(String confirmPassword) {
+        this.confirmPassword = confirmPassword;
     }
 
     @Override

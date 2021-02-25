@@ -9,12 +9,11 @@
 <header th:replace="blocks/header.html :: header"></header>
     <div class="modal">
         <h1>авторизация</h1>
-        <div th:if="${param.error}">
-            Invalid username and password.
-        </div>
 
         <form th:action="@{/login}" method="post">
+
             <div class="input__style">
+                <div th:if="${param.error}">Неверный логин или пароль</div>
                 <input type="text" name="username" placeholder="логин">
             </div>
             <div class="input__style">

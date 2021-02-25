@@ -8,14 +8,23 @@
 <header th:replace="blocks/header :: header"></header>
 <div class="modal2">
     <h1>регистрация</h1>
-    <form th:action="@{/registration}" method="post">
+    <form th:action="@{/registration}" method="post" >
         <div class="input__class">
             <div class="input2__style">
-                <input type="text" name="username" placeholder="имя">
+                <div th:text="${message}"></div>
+                <input type="text" name="username" placeholder="имя" >
+                <div th:text="${errorLogin}"></div>
             </div>
+
             <div class="input2__style">
                 <input type="password" name="password" placeholder="пароль">
+                <div th:text="${errorPassword}"></div>
             </div>
+            <div class="input2__style">
+                <input type="password" name="confirmPassword" placeholder="повторите пароль">
+                <div th:text="${errorConfirmPassword}"></div>
+            </div>
+
         </div>
         <label class="form-check-label">
             <input type="checkbox" class="form-check-input">
