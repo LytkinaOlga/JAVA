@@ -38,18 +38,22 @@ public class RegistrationController {
             model.put("message", "Пользователь с таким именем уже есть в системе");
             return "registration";
         }
-        if (user.getPassword() != null && !user.getPassword().equals(user.getConfirmPassword()) ){
-            model.put("errorConfirmPassword", "Пароли не совпадают!");
-            return "registration";
-        }
+
         if (bindingResult.hasErrors()) {
             if (bindingResult.hasFieldErrors("username"))
             {
                 model.put("errorLogin", "Логин должен содержать от 2 до 20 символов");
             }
             if (bindingResult.hasFieldErrors("password")){
-                model.put("errorPassword", "Пароль должен содержать от 8 симвлов");
+                model.put("errorPassword", "Пароль должен содержать от 8 символов");
             }
+            if (bindingResult.hasFieldErrors("confirmPassword")){
+                model.put("errorConfirmPassword", "Поле не может быть пустым");
+            }
+            return "registration";
+        }
+        if (user.getPassword() != null && !user.getPassword().equals(user.getConfirmPassword()) ){
+            model.put("errorConfirmPassword", "Пароли не совпадают!");
             return "registration";
         }
 

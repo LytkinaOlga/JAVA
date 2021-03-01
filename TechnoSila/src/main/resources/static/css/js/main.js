@@ -21,3 +21,10 @@ function initMap() {
     // The marker, positioned at Uluru
     var marker = new google.maps.Marker({position: uluru, map: map});
 }
+$(".phone").mask("+375(99)99-99-999");
+function Go() {
+
+    document.getElementById('block-1').style.display=(document.getElementById('1').checked)? 'block': 'none';
+    document.getElementById('block-2').style.display=(document.getElementById('2').checked)? 'block': 'none';
+
+}

@@ -10,6 +10,7 @@ public class Order {
     private Long id;
     private String username;
     private Double price;
+
     private String phone;
     private String address;
 
