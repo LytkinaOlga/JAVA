@@ -20,15 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6862aa6d-9720-49c0-8231-537ec8874724" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/beans/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/beans/Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d1cdf0a-b879-46c6-8aad-ffbac3e6b75a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d1cdf0a-b879-46c6-8aad-ffbac3e6b75a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/beans/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/beans/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/orders.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +73,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -187,7 +188,9 @@
       <workItem from="1614282619781" duration="11120000" />
       <workItem from="1614375205409" duration="3614000" />
       <workItem from="1614424240266" duration="4546000" />
-      <workItem from="1614635544250" duration="2121000" />
+      <workItem from="1614635544250" duration="2441000" />
+      <workItem from="1614683542284" duration="6153000" />
+      <workItem from="1614775550124" duration="7934000" />
     </task>
     <servers />
   </component>
@@ -214,10 +217,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608139915295" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1614291359262">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1614721889623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614291359262" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614721889623" />
     <state x="590" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1608066901239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -230,54 +233,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="116" y="40" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614203428098" />
-    <state width="1877" height="306" key="GridCell.Tab.0.bottom" timestamp="1614638364855">
+    <state width="1877" height="306" key="GridCell.Tab.0.bottom" timestamp="1614796492876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614638364855" />
-    <state width="1877" height="306" key="GridCell.Tab.0.center" timestamp="1614638364855">
+    <state width="1877" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614796492876" />
+    <state width="1877" height="306" key="GridCell.Tab.0.center" timestamp="1614796492876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="306" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614638364855" />
-    <state width="1877" height="306" key="GridCell.Tab.0.left" timestamp="1614638364855">
+    <state width="1877" height="306" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614796492876" />
+    <state width="1877" height="306" key="GridCell.Tab.0.left" timestamp="1614796492876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="306" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614638364855" />
-    <state width="1877" height="306" key="GridCell.Tab.0.right" timestamp="1614638364855">
+    <state width="1877" height="306" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614796492876" />
+    <state width="1877" height="306" key="GridCell.Tab.0.right" timestamp="1614796492876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="306" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614638364855" />
-    <state width="1877" height="306" key="GridCell.Tab.1.bottom" timestamp="1614638364856">
+    <state width="1877" height="306" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614796492876" />
+    <state width="1877" height="306" key="GridCell.Tab.1.bottom" timestamp="1614796492877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="306" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614638364856" />
-    <state width="1877" height="306" key="GridCell.Tab.1.center" timestamp="1614638364856">
+    <state width="1877" height="306" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614796492877" />
+    <state width="1877" height="306" key="GridCell.Tab.1.center" timestamp="1614796492877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="306" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614638364856" />
-    <state width="1877" height="306" key="GridCell.Tab.1.left" timestamp="1614638364856">
+    <state width="1877" height="306" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614796492877" />
+    <state width="1877" height="306" key="GridCell.Tab.1.left" timestamp="1614796492877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="306" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614638364856" />
-    <state width="1877" height="306" key="GridCell.Tab.1.right" timestamp="1614638364856">
+    <state width="1877" height="306" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614796492877" />
+    <state width="1877" height="306" key="GridCell.Tab.1.right" timestamp="1614796492877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="306" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614638364856" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1608721659420">
+    <state width="1877" height="306" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614796492877" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1614725121986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608721659420" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1608721659420">
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614725121986" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1614725121986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608721659420" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1608721659420">
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614725121986" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1614725121985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608721659420" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1608721659420">
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614725121985" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1614725121986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608721659420" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614725121986" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1608139650960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -290,19 +293,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1195" y="66" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610059412211" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1614721914938">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614721914938" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/CartController.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/CartController.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/java/by/bntu/fitr/poisit/lytkina/technosila/controller/OrderController.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

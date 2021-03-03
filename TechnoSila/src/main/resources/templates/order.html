@@ -16,7 +16,7 @@
         <div class="input_phone_number">
             <div class="input__field">
                 <input type="tel" class="phone" name="phone" placeholder="Введите свой номер телефона" >
-
+                <div th:text="${errorInputPhone}"></div>
             </div>
             <p class ="text__input_phone_number">Введите номер телефона в формате +375XX XX-XX-XXX</p>
         </div>
@@ -25,13 +25,13 @@
             <div class = "boxx">
                 <h1 class="big_heading">Оплата</h1>
                 <p class="text__delivery_payment">Выберите способ оплаты при получении товара</p>
-                <input type="radio" name="payment" value="cash"><label class="text__with_options">Наличные</label><Br>
-                <input type="radio" name="payment" value="card"><label class="text__with_options">Карта </label>
+                <input type="radio" name="payment" value="CASH" checked><label class="text__with_options">Наличные</label><Br>
+                <input type="radio" name="payment" value="CREDIT_CARD"><label class="text__with_options">Карта </label>
             </div>
             <div class = "boxx">
                 <h1 class="big_heading">Доставка</h1>
                 <p class="text__delivery_payment">Выберите способ доставки</p>
-                <input type="radio" name="delivery" value="cash" id="1" onclick='Go()'><label class="text__with_options">Самовывоз</label><Br>
+                <input type="radio" name="delivery" value="PICKUP" id="1" onclick='Go()'><label class="text__with_options">Самовывоз</label><Br>
                 <div class = "information__box" id="block-1">
                     <p class="text__delivery_payment">Вы можете забрать заказ по адресу:</p>
                     <p class="delivery_text">Бобруйск, ул. Комсомольская, 41 </p>
@@ -39,30 +39,32 @@
                     <p class="delivery_text">Пн. - Пят. с 10 до 19 часов<Br>Сб. - Вск. с 10 до 17 часов</p>
                 </div>
 
-                <input type="radio" name="delivery" value="card" id="2" onclick='Go()'><label class="text__with_options">Доставка</label><Br>
+                <input type="radio" name="delivery" value="DELIVERY" id="2" onclick='Go()'><label class="text__with_options">Доставка</label><Br>
                 <div class = "information__box" id="block-2">
                     <p class="text__delivery_payment">Введите адрес для доставки</p>
                     <p class="blue__text">* Доставка  производится только в пределах г. Минск</p>
                     <div class="input_delivery_data">
                         <div class="input__field">
-                            <input type="text" name="phone" placeholder="улица *">
+                            <div th:text="${errorInputStreetAndBuilding}"></div>
+                            <input type="text" name="street" placeholder="улица *">
                         </div>
                         <div class="input__field">
-                            <input type="text" name="phone" placeholder="дом *">
+                            <input type="text" name="building" placeholder="дом *">
                         </div>
                         <div class="input__field">
-                            <input type="text" name="phone" placeholder="корпус">
+                            <input type="text" name="corps" placeholder="корпус">
                         </div>
                         <div class="input__field">
-                            <input type="text" name="phone" placeholder="квартира">
+                            <input type="text" name="apartment" placeholder="квартира">
                         </div>
                         <div class="input__field">
-                            <input type="text" name="phone" placeholder="домофон">
+                            <input type="text" name="intercom" placeholder="домофон">
                         </div>
 
                     </div>
                     <p class="blue__text">* поля являются обязательными для заполнения</p>
                 </div>
+                <div th:text="${errorInputDelivery}"></div>
                 <div class="input__style_order">
                     <input type="submit" value="Оформить заказ">
                 </div>

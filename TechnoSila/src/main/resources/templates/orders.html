@@ -9,14 +9,20 @@
 <header th:insert="blocks/header :: header"></header>
 <div class="container">
 
-    <table class="table">
+    <table class="table__orders" align="center">
 
         <thead>
         <tr>
             <th>Name</th>
             <th>Price</th>
             <th>Phone</th>
-            <th>Address</th>
+            <th>Payment</th>
+            <th>Delivery</th>
+            <th>Street</th>
+            <th>Building</th>
+            <th>Apartment</th>
+            <th>Corps</th>
+            <th>Intercom</th>
         </tr>
         </thead>
         <tbody>
@@ -24,7 +30,13 @@
             <td th:text="${order.username}"> </td>
             <td th:text="${order.price}"></td>
             <td th:text="${order.phone}"></td>
-            <td th:text="${order.address}"></td>
+            <td th:text="${order.payment}"></td>
+            <td th:text="${order.delivery}"></td>
+            <td th:text="${order.street}"></td>
+            <td th:text="${order.building}"></td>
+            <td th:text="${order.apartment}"></td>
+            <td th:text="${order.corps}"></td>
+            <td th:text="${order.intercom}"></td>
         </tr>
         </tbody>
     </table>

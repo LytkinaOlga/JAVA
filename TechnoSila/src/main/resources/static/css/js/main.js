@@ -28,3 +28,5 @@ function Go() {
     document.getElementById('block-2').style.display=(document.getElementById('2').checked)? 'block': 'none';
 
 }
+var str = $("input:radio[class=test]").serialize();
+
